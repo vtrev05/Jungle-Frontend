@@ -125,7 +125,7 @@ const FilterGroup = () => {
 
   const searchFamily = () => {
     axios
-      .get(`http://localhost:4000/families/items/?livingInGroup=${familyName}`)
+      .get(`https://jungle-backend-v2.herokuapp.com/families/items/?livingInGroup=${familyName}`)
       .then((res) => {
         setFamily({
           properties: res.data.data.families,

@@ -104,7 +104,7 @@ const Img = styled.img`
   border-radius: 5px;
 `
 const ContentAnimals = () => {
-  const BASEURL = `http://localhost:4000/animal/`;
+  const BASEURL = `https://jungle-backend-v2.herokuapp.com/animal`;
   const [animalChosen, setAnimalChosen] = useState(false);
   const [animal, setAnimal] = useState({
     properties: [],

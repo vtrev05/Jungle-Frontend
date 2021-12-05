@@ -32,6 +32,6 @@ const Button = styled.button`
 const LogoutButton = () => {
     const { logout } = useAuth0();
     
-    return <Button onClick={() => logout({returnTo: 'http://localhost:3000/#/'})}>Logout</Button>;
+    return <Button onClick={() => logout({returnTo: 'https://61ac8c911f7aaa0008e82448--epic-newton-b61cb7.netlify.app/#/'})}>Logout</Button>;
   };
   export default LogoutButton;

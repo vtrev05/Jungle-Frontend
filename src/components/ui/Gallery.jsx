@@ -48,7 +48,7 @@ const Button = styled.button`
 `;
 
 const Gallery = () => {
-  const BASEURL = `http://localhost:4000/habitat`;
+  const BASEURL = `https://jungle-backend-v2.herokuapp.com/habitat`;
   const [animal, setAnimal] = useState({
     properties: [],
   });

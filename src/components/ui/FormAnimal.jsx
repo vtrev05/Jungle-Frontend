@@ -90,7 +90,7 @@ const InputContain = styled.input`
 
 const FormAnimal = (state) => {
   const [messageSent, setMessageSent] = useState("");
-  const BASEURL = `http://localhost:4000/collaboration`;
+  const BASEURL = `https://jungle-backend-v2.herokuapp.com/collaboration`;
   let objectExample = {
     animals: {},
     families: {},

@@ -55,7 +55,7 @@ const Span = styled.span`
 function AnimalDetails() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
-  const BASEURL = `http://localhost:4000/animal/`;
+  const BASEURL = `https://jungle-backend-v2.herokuapp.com/animal`;
 
   useEffect(() => {
     axios(BASEURL).then((res) => {

@@ -95,7 +95,7 @@ const Filter = () => {
 
   const searchAnimal = () => {
     axios
-      .get(`http://localhost:4000/animal/items?name=${animalName}`)
+      .get(`https://jungle-backend-v2.herokuapp.com/animal/items?name=${animalName}`)
       .then((res) => {
         setAnimal({
           name: animalName,
