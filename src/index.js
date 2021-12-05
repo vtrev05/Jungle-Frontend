@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Auth0Provider domain={domain}
     clientId={clientId}
-    redirectUri={window.location.origin}>
+    redirectUri="https://61ac920521ea5b00080e3df7--epic-newton-b61cb7.netlify.app/#/">
     <App />
     </Auth0Provider>
   </React.StrictMode>,
